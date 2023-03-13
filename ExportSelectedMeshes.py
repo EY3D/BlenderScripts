@@ -212,7 +212,7 @@ def ExportSelectedMeshes(
                 exp_objects = bpy.context.selected_objects
 
             # Export FBX/OBJ
-            utils.export_model(path, name, fbx_scale_mode)
+            export_model(path, name, fbx_scale_mode)
                 
         # Individual Export
         if fbx_export_mode == 'INDIVIDUAL':
